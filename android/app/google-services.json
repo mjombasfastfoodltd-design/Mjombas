@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "62500443401",
+    "project_id": "mjombas-fast-food",
+    "storage_bucket": "mjombas-fast-food.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62500443401:android:38b4d2cefee08b32256fd8",
+        "android_client_info": {
+          "package_name": "com.mjomba.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62500443401-gbctsif27av1f7cs7tueec8bfh8a5qeg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJIlAsem7DqB04CY32sxA3oCA4F_UAbW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62500443401-gbctsif27av1f7cs7tueec8bfh8a5qeg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

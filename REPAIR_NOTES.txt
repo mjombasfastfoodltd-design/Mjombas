@@ -1,0 +1,20 @@
+MJOMBAS Flutter project repair
+================================
+
+Source inputs:
+- MJOMBAS_Flutter_v3.zip (VS Code / Flutter project)
+- MJOMBAS4.zip (Android Studio / original Android project)
+
+Applied:
+- Separated root Android Gradle configuration from app module configuration.
+- Kept package/applicationId as com.mjomba.app.
+- Replaced duplicate/wrong MainActivity files with one Flutter MainActivity.
+- Preserved Firebase google-services.json from the Flutter project; it matches the Android Studio copy.
+- Preserved Flutter lib/ source and assets.
+- Preserved Android location/network permissions.
+- Corrected local.properties using forward-slash paths.
+- Kept Gradle 8.14 and Java 17 configuration.
+- Set Android NDK to 30.0.16248370.
+- Removed generated build/cache directories from the distributable project.
+
+The local.properties file is machine-specific and can be regenerated if moved to another PC.
